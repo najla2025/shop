@@ -1,0 +1,156 @@
+
+body{
+    background-color:rgb(238, 247, 255) ;
+    ;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+background-color: rgb(122, 178, 178);
+width: 100%; 
+}
+nav img{
+width: 70px;}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style: none;
+}
+
+@media  (max-width: 554px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+/* section 1 */
+.sec1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.prix {
+    color: #d9534f;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.avis {
+    color: gold;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #31b0d5;
+}
+
+.card p {
+    margin: 8px 0;
+}
+@media  (max-width: 983px) {
+    .sec1{
+        display: flex;
+flex-direction: column; 
+justify-items: center;
+
+}
+    }
+    /* section2 */
+    .affiche {
+        background-color: #fff;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 1500px;
+        margin: auto;
+        text-align: center;
+    }
+   
+    .solde {
+        font-size: 2em;
+        color: #4caf50;
+        margin: 20px 0;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    @media  (max-width: 912px) {
+        .sec2{
+            display: flex;
+flex-direction: column;}
+        }
+
+        /* section3 */
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px 0;
+        }
+        
+        .service {
+            text-align: center;
+        }
+        
+        .service img {
+            width: 50px;
+            height: 50px;
+        }
+        @media  (max-width: 877px) {
+            .services{
+                display: flex;
+flex-wrap: wrap;}
+            }
+
+            /* secction4 */
+           .sec4 {
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 20px;
+            }
+            .sec4 img {
+                border-radius: 50%;
+                width: 100px;
+                height: 160px;
+            }
+            @media  (max-width: 877px) {
+                .sec4{
+                    display: flex;
+    flex-wrap: wrap;}
+                }
